@@ -1,1 +1,36 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+#baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: "https://leoz123.github.io/" # the base hostname & protocol for your site
+author:
+street_address:
+city:
+state:
+zip_code:
+country:
+phone:
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://github.com/LeoZ123
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/haozhong1234
+pinterest_url:
+slack_url:
+twitter_url:
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
