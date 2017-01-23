@@ -2177,13 +2177,26 @@
 		background-color: #37a6cb;
 	}
 
+		.profile-pic{
+    
+   			padding-top:55px;
+    		padding-bottom: 15px;
+		}
+		.profile-pic img{
+  	 		height:160px;
+   	  		width:160px;
+    		border:2px solid white;
+		}
+
 /* Image */
+
 
 	.image {
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
+
 
 		.image img {
 			display: block;

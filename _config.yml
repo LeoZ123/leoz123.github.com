@@ -1,11 +1,11 @@
 # Site settings
 title: Hao Zhong
-subtitle:
+subtitle: 
 email: zhong5930@gmail.com
 description: I am a computer engineering student at University of Waterloo
 #baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://leoz123.github.io/" # the base hostname & protocol for your site
-author:
+author: Hao Zhong
 street_address:
 city:
 state:
@@ -20,13 +20,13 @@ tiles-count: 6
 # Social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://github.com/LeoZ123
+github_url: https://github.com/LeoZ123
+gitlab_url: 
 googleplus_url:
 instagram_url:
 linkedin_url: https://www.linkedin.com/in/haozhong1234
 pinterest_url:
-slack_url:
+slack_url: 
 twitter_url:
 
 # Build settings
