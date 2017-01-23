@@ -34,3 +34,6 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+future: true
+timezone: UTC-5
