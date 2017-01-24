@@ -1,2 +1,2 @@
 ##Leo's personal page
-Please visit leoz123.github.io
+Please visit http://leoz123.github.io
