@@ -4,8 +4,7 @@
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-
-				<ul class="icons">
+			<ul class="icons">
 				{% if site.twitter_url %}
 				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 				{% endif %}
@@ -37,7 +36,7 @@
 				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 				{% endif %}
 
-				<i><li><a href="assets/file/Soft.pdf" target="_blank"  class="fa fa-file-pdf-o  fa-lg" ><span class="label">Resume</span></a></li></i>
+				<i><li><a href="assets/file/Soft.pdf" target="_blank"  class="fa fa-pencil-square-o  fa-lg" ><span class="label">Resume</span></a></li></i>
 			</ul>
 	<nav>
 		<a href="#menu">Menu</a>
@@ -52,11 +51,6 @@
 		    {% if page.layout == "home" %}
 		        <li><a href="{{ "" | absolute_url }}">{{ page.title }}</a></li>
 	    	{% endif %}
-		{% endfor %}
-		{% for page in site.pages %}
-		    {% if page.layout != "home" %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-		    {% endif %}
 		{% endfor %}
 	</ul>
 <!-- 	<ul class="actions vertical">
