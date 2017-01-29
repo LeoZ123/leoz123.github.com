@@ -2776,22 +2776,22 @@
 				content: '';
 				display: block;
 				height: 100%;
-				left: 0;
+				left: 2em;
 				opacity: 0.85;
 				position: absolute;
 				width: 100%;
-				z-index: 2;
+			
 			}
 
 			.about article:after {
-				content: '';
+				
 				display: block;
 				height: 100%;
-				left: 0;
-				position: absolute;
+				left: 2em;
+				position: absolue;
 				top: 0;
 				width: 100%;
-				z-index: 1;
+				
 			}
 
 			.about article:hover:before {
@@ -2801,11 +2801,11 @@
 			.about article .link.primary {
 				border: 0;
 				height: 100%;
-				left: 0;
+				left: 2em;
 				position: absolute;
 				top: 0;
 				width: 100%;
-				z-index: 4;
+				
 			}
 
 .skill-set{
@@ -2845,24 +2845,6 @@
     margin-top:10px;
     padding:4px auto;
 }
-		@media screen and (max-width: 1280px) {
-
-			.about article {
-				padding: 4em 3em 2em 3em ;
-				height: 30vh;
-				max-height: 30em;
-				min-height: 20em;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.about article {
-				width: 50% !important;
-			}
-
-		}
 
 		@media screen and (max-width: 736px) {
 
@@ -2879,10 +2861,41 @@
 
 				.about article h4 {
 					font-size: 1.5em;
+					 text-align: left;
+				}
+
+				.skill-bar-pro{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .skill-bar-med{
+        width:70%;
+        margin-bottom: 10px;
+    }
+    .skill-bar-entry{
+        width:30%;
+        margin-bottom: 10px;
+    }
+				.about article h3 {
+					font-size: 1.5em;
+				}
+
+				.about article h4 {
+					font-size: 1.5em;
+					text-align: left;
 				}
 		}
 
 		@media screen and (max-width: 480px) {
+		.about article:nth-child(1) {
+				width: 100%;
+				padding: 1em 2em 0em 2em ;
+			}
+
+			.about article:nth-child(2) {
+				width: 100%;
+				padding: 0em 2em 0em 2em ;
+			}
 
 			.about {
 				display: block;
@@ -2892,7 +2905,26 @@
 					height: 20em;
 					width: 100% !important;
 				}
+	.skill-bar-pro{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .skill-bar-med{
+        width:70%;
+        margin-bottom: 10px;
+    }
+    .skill-bar-entry{
+        width:30%;
+        margin-bottom: 10px;
+    }
+				.about article h3 {
+					font-size: 1.5em;
+				}
 
+				.about article h4 {
+					font-size: 1.5em;
+					text-align: left;
+				}
 		}
 			
 /* Tiles */
