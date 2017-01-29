@@ -2845,7 +2845,56 @@
     margin-top:10px;
     padding:4px auto;
 }
+		@media screen and (max-width: 1280px) {
 
+			.about article {
+				padding: 4em 3em 2em 3em ;
+				height: 30vh;
+				max-height: 30em;
+				min-height: 20em;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.about article {
+				width: 50% !important;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.about article {
+				padding: 3em 1.5em 1em 1.5em ;
+				height: 16em;
+				max-height: none;
+				min-height: 0;
+			}
+
+				.about article h3 {
+					font-size: 1.5em;
+				}
+
+				.about article h4 {
+					font-size: 1.5em;
+				}
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.about {
+				display: block;
+			}
+
+				.about article {
+					height: 20em;
+					width: 100% !important;
+				}
+
+		}
+			}
 /* Tiles */
 
 	.tiles {
