@@ -1709,6 +1709,8 @@
 
 	p2 {
 		margin: 0em 0em 2em 0em;
+		text-align: center;
+
 	}
 
 	h1, h2, h4, h6 {
@@ -2786,7 +2788,6 @@
     font-size:80%;
     margin-top:10px;
     padding:4px auto;
-    box-shadow: 1px 2px 5px #888888;
 }
 .skill-bar-med{
     background:#3498db;
@@ -2795,7 +2796,6 @@
     font-size:80%;
     margin-top:10px;
     padding:4px auto;
-    box-shadow: 1px 2px 5px #888888;
 }
 .skill-bar-entry{
     background:#68c2ff;
@@ -2804,7 +2804,6 @@
     font-size:80%;
     margin-top:10px;
     padding:4px auto;
-    box-shadow: 1px 2px 5px #888888;
 }
 
 /* Tiles */
