@@ -2767,36 +2767,7 @@
 				width: 50%;
 				padding: 2em 2em 0em 0em ;
 			}
-			.about article:before {
-				-moz-transition: opacity 0.5s ease;
-				-webkit-transition: opacity 0.5s ease;
-				-ms-transition: opacity 0.5s ease;
-				transition: opacity 0.5s ease;
-				bottom: 0;
-				content: '';
-				display: block;
-				height: 100%;
-				left: 2em;
-				opacity: 0.85;
-				position: absolute;
-				width: 100%;
-			
-			}
 
-			.about article:after {
-				
-				display: block;
-				height: 100%;
-				left: 2em;
-				position: absolue;
-				top: 0;
-				width: 100%;
-				
-			}
-
-			.about article:hover:before {
-				opacity: 0;
-			}
 
 			.about article .link.primary {
 				border: 0;
@@ -2894,7 +2865,7 @@
 
 			.about article:nth-child(2) {
 				width: 100%;
-				padding: 0em 2em 0em 2em ;
+				padding: 2em 2em 0em 2em ;
 			}
 
 			.about {
@@ -2925,6 +2896,7 @@
 					font-size: 1.5em;
 					text-align: left;
 				}
+
 		}
 			
 /* Tiles */
